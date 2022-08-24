@@ -16,6 +16,7 @@ function addOrder() {
     order:order ,
   }
   // أدرج الكائن إلى المصفوفة
+  orders.pop()
    orders.push(newOrder);
   // طبق الخطوة 7 تحت هذا الكومنت
   load()
